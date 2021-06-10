@@ -146,6 +146,7 @@ public class MyGdxGame extends ApplicationAdapter {
 				gameState=0;
 				birdY=Gdx.graphics.getHeight()/2 -80;
 				velocity=3;
+				score=0;
 			}
 		}
 		font.draw(batch,String.valueOf(score),100,200);
